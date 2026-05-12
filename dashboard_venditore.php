@@ -20,7 +20,7 @@ if(!isset($_SESSION['IdUtente']) || $_SESSION['tipoUtente'] !== 'venditore') {
 
     <div class="container">
         <header style="display: flex; justify-content: space-between; align-items: center; margin: 30px 0;">
-            <h2 style="color: var(--dark-green);">👨‍💼 Pannello Venditore</h2>
+            <h2 style="color: var(--dark-green);"> Pannello Venditore</h2>
             <button class="btn-primary" onclick="apriModalNuovoLibro()">+ Aggiungi Libro</button>
         </header>
 
@@ -41,12 +41,12 @@ if(!isset($_SESSION['IdUtente']) || $_SESSION['tipoUtente'] !== 'venditore') {
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;" class="responsive-stack">
             <section>
-                <h3 style="margin-bottom: 20px; color: var(--dark-green);">📚 I tuoi Libri</h3>
+                <h3 style="margin-bottom: 20px; color: var(--dark-green);"> I tuoi Libri</h3>
                 <div id="lista-libri-venditore"></div>
             </section>
 
             <section>
-                <h3 style="margin-bottom: 20px; color: var(--dark-green);">📦 Ordini da Spedire</h3>
+                <h3 style="margin-bottom: 20px; color: var(--dark-green);"> Ordini da Spedire</h3>
                 <div id="lista-ordini-venditore">
                     <p style="color: var(--text-sec);">Nessun ordine in attesa.</p>
                 </div>

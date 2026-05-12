@@ -16,7 +16,7 @@ if(!isset($_SESSION['IdUtente'])) { header("Location: login.php"); exit; }
 
     <div class="container" style="max-width: 600px; margin: 50px auto;">
         <div class="dash-card" style="padding: 30px; border: 1px solid #ddd; border-radius: 12px; background: #fff;">
-            <h2 style="margin-bottom: 20px; color: #333;">📦 Ultimo passaggio</h2>
+            <h2 style="margin-bottom: 20px; color: #333;"> Ultimo passaggio</h2>
 
             <div id="recap-ordine" style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
                 <p>Stai per ordinare i libri nel tuo carrello.</p>
